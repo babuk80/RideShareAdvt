@@ -1,0 +1,46 @@
+
+.mat-tab-group {
+    margin-top: 120px;
+  }
+  .mat-tab-header,
+.mat-tab-label-container,
+.mat-ripple {
+  overflow: inherit !important;
+}
+.mat-tab-body.mat-tab-body-active{
+    left: 280px;
+}
+.mat-tab-labels, .mat-tab-label, .mat-tab-link {
+    color: white;
+    font-size: 16px;
+    background-color: #804A71;
+  }
+  
+  .mat-tab-body, .p{
+font-family: sans-serif;
+text-align: justify;
+  }
+
+  .mat-ink-bar:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 20px black;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+  .mat-tab-body-content{
+      width: 900px;
+      left: 400px;
+  }
+  .vertical-divider {
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    height: 100%;
+  }
